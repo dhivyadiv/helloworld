@@ -1,26 +1,9 @@
-  import {Link} from 'react-router-dom'
-  
-  
-  const App=() =>{
-  return <>
-  {/* <Link to="/home">home</Link> */}
-  <ul>
-    <li>
-      <Link  to="/home">home</Link>
-    </li>
+import React from 'react';
 
-    <li>
-      <Link to="/about">About</Link>
-    </li>
+import ExpenseTracker from './components/ExpenseTracker';
 
-    <li>
-      <Link  to="/profile">Profile</Link>
-    </li>
-  </ul>
+function App() {
+    return <ExpenseTracker />
+}
 
- 
-  </>
-
- }
-
- export default App;
+export default App;
